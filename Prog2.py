@@ -34,3 +34,32 @@ print("Array d:")
 print(d)
 print("Transposed array d:")
 print(np.transpose(d))
+
+# OUTPUT:
+# Array a:  [1 2 3 4 5]
+# Array b:  [ 6  7  8  9 10]
+# Sum of arrays a&b :  [ 7  9 11 13 15]
+# Difference of arrays a&b :  [-5 -5 -5 -5 -5]
+# Product of arrays a&b :  [ 6 14 24 36 50]
+# Division of arrays a&b :  [0.16666667 0.28571429 0.375      0.44444444 0.5       ]
+# Square root of array a:  [1.         1.41421356 1.73205081 2.         2.23606798]
+# Exponential of array a:  [  2.71828183   7.3890561   20.08553692  54.59815003 148.4131591 ]
+# Minimum value of array a:  1
+# Maximum value of array b:  10
+# Mean of array a:  3.0
+# Sandard Deviation of array b:  1.4142135623730951
+# Sum of all the elements in array a:  15
+# Array c:
+# [[1 2]
+#  [3 4]
+#  [5 6]]
+# Reshaped array c(2 rows, 3 columns):
+# [[1 2 3]
+#  [4 5 6]]
+# Array d:
+# [[1 2 3]
+#  [4 5 6]]
+# Transposed array d:
+# [[1 4]
+#  [2 5]
+#  [3 6]]'''
