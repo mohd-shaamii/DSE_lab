@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 import math
 
 def inverse_normal_cdf(p, mu=0, sigma=1, tolerance=0.00001):
-    if mu != 0 or sigma != 0:
+    if mu != 0 or sigma != 1:
         return mu + sigma * inverse_normal_cdf(p, tolerance=tolerance)
-    low_z, low_p = -10, 0
-    hi_z, hi_p = 10, 1
+    low_z, low_p = -10.0, 0
+    hi_z, hi_p = 10.0, 1
     while hi_z - low_z > tolerance:
         mid_z = (low_z + hi_z) / 2
         mid_p = normal_cdf(mid_z)
