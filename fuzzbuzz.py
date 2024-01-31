@@ -90,3 +90,114 @@ for n in range(1, 101):
         num_correct += 1
 
 print(num_correct, "/", 100)
+
+
+
+# OUTPUT:
+# /lib/python3.11/site-packages/tqdm/std.py:1525: TqdmMonitorWarning: tqdm:disabling monitor support (monitor_interval = 0) due to:
+# can't start new thread
+#   return tqdm(range(*args), **kwargs)
+# fizz buzz (loss: 2768.98): 100%|██████████| 500/500 [05:40<00:00,  1.47it/s]
+
+# 1 fizz 1
+# 2 fizz 2
+# 3 fizz fizz
+# 4 fizz 4
+# 5 fizz buzz
+# 6 fizz fizz
+# 7 fizz 7
+# 8 fizz 8
+# 9 fizz fizz
+# 10 fizz buzz
+# 11 fizz 11
+# 12 fizz fizz
+# 13 fizz 13
+# 14 fizz 14
+# 15 fizz fizzbuzz
+# 16 fizz 16
+# 17 fizz 17
+# 18 fizz fizz
+# 19 fizz 19
+# 20 fizz buzz
+# 21 fizz fizz
+# 22 fizz 22
+# 23 fizz 23
+# 24 fizz fizz
+# 25 fizz buzz
+# 26 fizz 26
+# 27 fizz fizz
+# 28 fizz 28
+# 29 fizz 29
+# 30 fizz fizzbuzz
+# 31 fizz 31
+# 32 fizz 32
+# 33 fizz fizz
+# 34 fizz 34
+# 35 fizz buzz
+# 36 fizz fizz
+# 37 fizz 37
+# 38 fizz 38
+# 39 fizz fizz
+# 40 fizz buzz
+# 41 fizz 41
+# 42 fizz fizz
+# 43 fizz 43
+# 44 fizz 44
+# 45 fizz fizzbuzz
+# 46 fizz 46
+# 47 fizz 47
+# 48 fizz fizz
+# 49 fizz 49
+# 50 fizz buzz
+# 51 fizz fizz
+# 52 fizz 52
+# 53 fizz 53
+# 54 fizz fizz
+# 55 fizz buzz
+# 56 fizz 56
+# 57 fizz fizz
+# 58 fizz 58
+# 59 fizz 59
+# 60 fizz fizzbuzz
+# 61 fizz 61
+# 62 fizz 62
+# 63 fizz fizz
+# 64 64 64
+# 65 65 buzz
+# 66 66 fizz
+# 67 fizz 67
+# 68 68 68
+# 69 fizz fizz
+# 70 fizz buzz
+# 71 fizz 71
+# 72 fizz fizz
+# 73 fizz 73
+# 74 fizz 74
+# 75 fizz fizzbuzz
+# 76 fizz 76
+# 77 fizz 77
+# 78 fizz fizz
+# 79 fizz 79
+# 80 fizz buzz
+# 81 fizz fizz
+# 82 fizz 82
+# 83 fizz 83
+# 84 fizz fizz
+# 85 fizz buzz
+# 86 fizz 86
+# 87 fizz fizz
+# 88 fizz 88
+# 89 fizz 89
+# 90 fizz fizzbuzz
+# 91 fizz 91
+# 92 fizz 92
+# 93 fizz fizz
+# 94 fizz 94
+# 95 fizz buzz
+# 96 96 fizz
+# 97 fizz 97
+# 98 fizz 98
+# 99 fizz fizz
+# 100 fizz buzz
+# 27 / 100
+
